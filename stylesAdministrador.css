@@ -1,0 +1,32 @@
+button{
+    width: 200px;
+    height: 50px;
+}
+#primero{
+    border-color: white;
+    color: white;
+    background-color: mediumpurple;
+}
+#segundo{
+    border-color: white;
+    color: white;
+    background-color: darkcyan;
+}
+#tercero{
+    border-color: white;
+    color: white;
+    background-color: dodgerblue;
+
+}
+#cuarto{
+    border-color: white;
+    color: white;
+    background-color: goldenrod;
+
+}
+#quinto{
+    border-color: white;
+    color: white;
+    background-color: orange;
+
+}

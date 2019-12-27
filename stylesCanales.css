@@ -1,0 +1,74 @@
+figure{
+    display: inline;
+    align-content: center;
+}
+#logo{
+    float: left;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#navbar{
+    color: white;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#elegido{
+    color: lightgrey;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav{
+    background-color: dodgerblue;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+aside{
+    float: right;
+    margin-right: 3%;
+}
+header{
+    height: 40px;
+    background-color: dodgerblue;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+h2{
+    padding-top: 5px;
+    margin-left: 2%;
+    text-align: left;
+    color: white;
+}
+
+#fondo{
+    margin-top:50px; 
+    background-color: dodgerblue;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+article{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+p{
+    margin-left: 2%;
+}
+button{
+    border-color: white;
+    background-color: dodgerblue;
+    width: 200px;
+    height: 50px;
+    color: white;
+}

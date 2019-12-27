@@ -1,0 +1,102 @@
+figure{
+    display: inline;
+    align-content: center;
+}
+#logo{
+    float: left;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#navbar{
+    color: white;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#elegido{
+    color: lightgrey;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav{
+    background-color: dodgerblue;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+aside{
+    float: right;
+    margin-right: 3%;
+
+}
+
+#texto{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+p{
+    margin: 5px;
+
+}
+#perfiles{
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+#opciones{
+    float: right;
+    width: 60%;
+    margin-right: 10%;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+
+
+#fondo{
+    margin-top:40%;
+    background-color: dodgerblue;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+#boton{
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    width: 150px;
+    height: 50px;
+}
+#impar {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+#par{
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+#perfil{
+    height: 40%;
+    width: 40%;
+}
