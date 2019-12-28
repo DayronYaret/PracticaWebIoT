@@ -84,9 +84,13 @@ $posicion = 0;
                             $sql = substr($sql, 0, -1) . ") ORDER BY name ASC";
                             if ($query = mysqli_query($con,$sql)) {
                             while ($row = mysqli_fetch_array($query)) {
+
                                 $subtotal = $_SESSION['cart'][$row['id']]['quantity'] * $row['price'];
                                 $product_id=$row['id'];
                                 $totalprice += $subtotal;
+                                if ( $_SESSION['cart'][$row['id']]['quantity']>= $_SESSION['cart'][$row['id']]['stock']){
+                                    $_SESSION['cart'][$row['id']]['quantity']= $_SESSION['cart'][$row['id']]['stock'];
+                                }
                                 ?>
                                 <tr>
                                     <td><?php echo $row['name'] ?></td>
@@ -96,7 +100,8 @@ $posicion = 0;
                                 </tr>
                                 <?php
                                 $posicion = $posicion + 1;
-                            } ?>
+                            }
+                            ?>
                             <tr>
                                 <td align="right"><b>Total</b></td>
                                 <td colspan="4" align="right">
